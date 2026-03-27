@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skillstreet</title>
+</head>
+<link rel="stylesheet" href="style.css" class="css">
+<body>
+    <header>
+         <div class="logo">Skillstreet</div>
+         
+           
+
+            <div class="user-auth">
+                <div class="profile-box">
+                    <div class="avatar-circle" style="display: none;" >S</div>
+                    <div class="dropdown">
+                        <a href="#">My account</a>
+                        <a href="#">Logout</a>
+                    </div>
+                
+            
+
+    </header>
+
+  
+    
+    
+    <div class="alert-box" style="display: none;">
+        <div class="alert success">
+           <i><ion-icon name="checkmark-circle"></ion-icon></i> 
+            <span>Login Successful</span>
+        </div>
+    </div>
+       
+
+   
+
+       <div class="wrapper">
+
+        
+       
+        
+        <div class="form-box Login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>E-mail</label>
+                </div>
+                 <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label> 
+                    <a href="forgotpassword.html">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn" oneclick="func()">Login </button>
+                <div class="login-register">
+                    <p>Don't have an account?
+                        <a href="#" class="register-link"> Register</a></p>
+                </div>
+            </form>
+        </div>
+             <div class="form-box Register">
+            <h2>Registration</h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Name</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="mail" required>
+                    <label>E-mail</label>
+                </div>
+                 <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">I agree to the terms & conditions</label> 
+                    <a href="Privacy Policy & TC skillstreet.pdf"> Terms & Conditions</a>
+                    
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account?<a href="#" class="login-link"> Login</a></p>
+                    
+    </div>
+            </form>
+             </div>
+            
+        </div>
+        
+           
+    
+        
+   
+    
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    
+</body>
+
+</html>
