@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('login\ baackgrounnd.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.tab-content {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav-pills {
+    display: flex;
+    border-radius: 25px;
+    overflow: hidden;
+    background: #e7ecff;
+    border: 1px solid rgba(102, 126, 234, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+.nav-item {
+    flex: 1;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #27346b;
+    text-align: center;
+    font-weight: 600;
+    transition: background 0.3s, color 0.3s;
+}
+
+.nav-link.active {
+    background: linear-gradient(135deg, #667eea, #5a67d8);
+    color: #fff;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.show.active {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-3,
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.btn-floating {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.btn-floating:hover {
+    transform: scale(1.1);
+}
+
+.btn-link {
+    background: transparent;
+    color: #333;
+}
+
+.btn-link:hover {
+    background: #f0f0f0;
+}
+
+.btn-link .fab {
+    color: #000;
+}
+
+.form-outline {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+.form-label {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #666;
+    transition: all 0.3s;
+    pointer-events: none;
+}
+
+.form-control:focus + .form-label,
+.form-control:not(:placeholder-shown) + .form-label {
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    color: #667eea;
+    background: #fff;
+    padding: 0 5px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+}
+
+.form-check-input {
+    margin-right: 5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.btn-primary {
+    background: #667eea;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #5a67d8;
+}
+
+.btn-block {
+    width: 100%;
+}
